@@ -1,0 +1,194 @@
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+@media only screen and (min-width: 376px) {
+
+.inner {
+    width: 25em;
+    height: 25em;
+    background-color: #202731;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 1rem;
+    transform: translate(-50%, -50%);
+}
+
+.inner-container {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+}
+
+
+form .submit {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    border-style: none;
+    display: grid;
+    padding-right: 8rem;
+    padding-left: 8rem;
+}
+}
+
+@media only screen and (max-width: 375px) {
+
+.inner {
+    width: 21em;
+    height: 25em;
+    background-color: #202731;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 1rem;
+    transform: translate(-50%, -50%);
+}
+
+.inner-container {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+}
+
+.span {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+form .submit {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    text-align: center;
+    border-radius: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    border-style: none;
+    display: grid;
+    padding-right: 7rem;
+    padding-left: 8rem;
+}
+
+}
+
+html, body {
+    background-color: #141519;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.star-circle {
+    background-color: #262f38;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3.5em;
+    height: 3em;
+    width: 3em;
+}
+
+.svg {
+    margin-top: 1em;
+}
+
+.rate-box {
+    color:hsl(25, 97%, 53%);
+    border-radius: 50px;
+    background-color: #262f38;
+    padding: 0.3em;
+    margin-left: 4.7em;
+    margin-right: 4.7em;
+    margin-top: 2em;
+}
+
+.thank-you-card {
+    margin: 0.1em;
+}
+
+h1 {
+    color: white;
+}
+
+.iconify {
+    color: orange;
+}
+
+form .submit:hover{
+    color:hsl(25, 97%, 53%);
+    background-color: white; 
+}
+
+.circle:hover{
+    color: white;
+    background-color: #fc7613; 
+}
+
+.attribution {
+    text-align: center;
+    color: #bec1c4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.circle {
+    color: #bec1c4;
+    background-color: #262f38;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: 0.2em;
+    cursor: pointer;
+}
+
+.circle-active {
+    background-color: hsl(217, 12%, 63%);
+    color: white
+
+}
+
+.response {
+    color: #bec1c4;
+}
+
+.attribution a {
+    color: #bec1c4;
+}
+
+.number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.thank-you {
+    text-align: center;
+    color: #bec1c4;
+    width: 20.4em;
+    height: 22em;
+    background-color: #202731;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thank-you-visible {
+    visibility: hidden;
+}
